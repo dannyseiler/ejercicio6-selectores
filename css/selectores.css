@@ -1,0 +1,22 @@
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 200px;
+}
+
+button::before {
+  content: "Pasa por encima";
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  background-color: #3a973a;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover::before {
+  content:"HECHO";
+}
